@@ -8,7 +8,7 @@ What it [_script_] does for now is edit the grub timeout, which is set at 10 sec
 
 **NOTE://** You will need to make the bash script file executable by running _chmod +x grub-timeout.sh_ at your download location.
 
-YOu can edit the file to change the _GRUB_TIMEOUT=""_ to set the timeout to whatever you want.
+You can edit the file to change the _GRUB_TIMEOUT=""_ to set the timeout to whatever you want.
 
 Just to be safe, the scropt creates a backup _grub_  file at /home/grub/backup. 
 If you at anytime need the original file for whatever reason, access it from there. 
